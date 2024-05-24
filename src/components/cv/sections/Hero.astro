@@ -16,6 +16,9 @@ const SOCIAL_ICONS: Record<string, any> = {
     LinkedIn,
     X
 }
+
+const linkedUrl = profiles.find(({ network }) => network === "LinkedIn")?.url
+const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
 ---
 
 <Section>
@@ -28,6 +31,11 @@ const SOCIAL_ICONS: Record<string, any> = {
         {city}, {country}
       </span>
       <footer>
+        <div class="print">
+          {printInfo}
+        </div>
+      </footer>
+      <footer class="no-print">
         {
           email && (
             <a
@@ -120,6 +128,8 @@ const SOCIAL_ICONS: Record<string, any> = {
   }
 
   footer {
+    color: #555;
+    font-size: 0.65rem;
     display: flex;
     gap: 4px;
     margin-top: 8px;

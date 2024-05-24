@@ -70,4 +70,20 @@ const { title } = Astro.props;
 		text-wrap: pretty;
 	}
 
+  @media print {
+    .no-print {
+      display: none !important;
+    }
+  }
+
+  .print {
+    display: none !important;
+  }
+
+  @media print {
+    .print {
+      display: block !important;
+    }
+  }
+
 </style>

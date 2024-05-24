@@ -7,9 +7,11 @@ import Experience from '@/components/cv/sections/Experience.astro';
 import Education from '@/components/cv/sections/Education.astro';
 import Projects from '@/components/cv/sections/Projects.astro';
 import Skills from '@/components/cv/sections/Skills.astro';
-import KeyboardManager from '@/components/cv/KeyboardManager.astro';
+import Footer from '@/components/cv/Footer.astro';
+import ThemeIcon from '@/components/ThemeIcon.astro';
 ---
 
+<ThemeIcon />
 <Layout title="Portfolio">
 	<main>
 		<Hero />
@@ -20,7 +22,7 @@ import KeyboardManager from '@/components/cv/KeyboardManager.astro';
 		<Skills />
 	</main>
 
-	<KeyboardManager />
+	<Footer />
 </Layout>
 
 <style>

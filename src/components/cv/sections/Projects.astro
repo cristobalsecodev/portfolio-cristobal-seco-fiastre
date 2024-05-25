@@ -13,7 +13,12 @@ import { projects } from "@cv-es"
             <article>
               <header>
                 <h3>
-                  <a href={url} title={`Ver el proyecto ${name}`}>
+                  <a
+                    title={`Ver el proyecto ${name}`}
+                    target="_blank"
+                    rel="noopener noreferrer" 
+                    href={url}
+                  >
                     {name}
                   </a>
                   <span class:list={{isActive: isActive, isNotActive: !isActive}}>&bull;</span>
@@ -60,6 +65,10 @@ import { projects } from "@cv-es"
   }
 
   article h3 {
+    margin-bottom: 4px;
+  }
+
+  article a {
     color: #111;
   }
 

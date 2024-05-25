@@ -9,10 +9,14 @@ import Projects from '@/components/cv/sections/Projects.astro';
 import Skills from '@/components/cv/sections/Skills.astro';
 import Footer from '@/components/cv/Footer.astro';
 import ThemeIcon from '@/components/ThemeIcon.astro';
+
+import { basics } from "@cv-es"
+
+const { name, label } = basics
 ---
 
-<ThemeIcon />
-<Layout title="Portfolio">
+<!-- <ThemeIcon /> -->
+<Layout title={`Portfolio de ${name} - ${label}`}>
 	<main>
 		<Hero />
 		<About />

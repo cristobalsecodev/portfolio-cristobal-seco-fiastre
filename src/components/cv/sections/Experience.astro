@@ -2,32 +2,58 @@
 import Section from "../Section.astro"
 
 import { work } from '@cv-es'
+
+import { calculateMonthYear } from "@/utils/date"
 ---
 
 <Section title="Experience">
   <ul>
     {
-      work.map(({ name, startDate, endDate, position, summary, highlights }) => {
-        const startYear = new Date(startDate).getFullYear()
-        const endYear = endDate != null ? new Date(endDate).getFullYear() : "Presente"
-        const years = `${startYear} - ${endYear}`
+      work.map(({ name, startDate, endDate, url, workFlow }) => {
+        const years = `${calculateMonthYear(startDate)} - ${calculateMonthYear(endDate)}`
         return (
           <li>
             <article>
-              <header>
-                <div>
-                  <h3>{name}</h3>
-                  <h4>{position}</h4>
-                </div>
+              <header class="separator-header">
+                <h3>
+                  <a
+                    title={`Ir a la empresa ${name}`}
+                    target="_blank"
+                    rel="noopener noreferrer" 
+                    href={url}
+                  >
+                    {name}
+                  </a>
+                </h3>
                 <time>
                   {years}
                 </time>
               </header>
               <footer>
-                <p>{summary}</p>
+                <ul>
+                  {
+                    workFlow.map(({ position, summary, startDate, endDate }) => {
+                      const years = `${calculateMonthYear(startDate)} - ${calculateMonthYear(endDate)}`
+                      return (
+                        <li>
+                          <article>
+                            <header>
+                              <h4>{position}</h4>
+                              <time>
+                                {years}
+                              </time>
+                            </header>
+                            <footer>
+                              <p>{summary}</p>
+                            </footer>
+                          </article>
+                        </li>
+                      )
+                    })
+                  }
+                </ul>
               </footer>
             </article>
-            <p>{summary}</p>
           </li>
         )
       })
@@ -39,15 +65,20 @@ import { work } from '@cv-es'
   ul {
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 8px;
   }
 
-  article h3 {
+  .separator-header {
+    border-bottom: 1px solid #c0bebe;
+    padding-bottom: 6px;
+  }
+
+  article h3 a {
     font-weight: 500;
     color: #111;
   }
 
-  article h4 {
+  article header h4 {
     color: #222;
     font-weight: 400;
   }
@@ -55,8 +86,9 @@ import { work } from '@cv-es'
   header {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 4px;
+    align-items: center;
+    margin-bottom: 8px;
+    
   }
 
   time {

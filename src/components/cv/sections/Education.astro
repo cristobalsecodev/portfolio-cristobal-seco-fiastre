@@ -1,7 +1,78 @@
 ---
 import Section from "../Section.astro";
+
+import { education } from "@cv-es"
+
+import { calculateMonthYear } from "@/utils/date"
 ---
 
 <Section title="Education">
-
+  <ul>
+    {
+      education.map(({ institution, title, startDate, endDate, summary, url }) => {
+        const years = `${calculateMonthYear(startDate)} - ${calculateMonthYear(endDate)}`
+        return (
+          <li>
+            <article>
+              <header>
+                <h3>
+                  {title}
+                </h3>
+                <time>
+                  {years}
+                </time>
+              </header>
+              <footer>
+                <h4>
+                  <a 
+                    title={`Ir a la página de ${institution}`}
+                    target="_blank"
+                    rel="noopener noreferrer" 
+                    href={url}
+                  >
+                    {institution}
+                  </a>
+                </h4>
+                <p>{summary}</p>
+              </footer>
+            </article>
+          </li>
+        )
+      })
+    }
+  </ul>
 </Section>
+
+<style>
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  article h3 {
+    font-weight: 500;
+    color: #111;
+  }
+
+  footer h4 {
+    margin-bottom: 8px;
+  }
+
+  footer h4 a {
+    color: #222;
+    font-weight: 400;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+
+  time {
+    color: #555;
+    font-size: 0.85rem;
+  }
+</style>

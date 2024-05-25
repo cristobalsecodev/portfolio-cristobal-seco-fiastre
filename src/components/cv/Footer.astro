@@ -3,6 +3,15 @@
 </footer>
 
 <style>
+      @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
     footer {
       background: #fdfdfd;
       border-top: 1px solid #eee;
@@ -11,6 +20,12 @@
       width: 100%;
       padding: 8px 8px;
       text-align: center;
+
+      view-timeline-name: --revealing;
+      view-timeline-axis: block;
+      animation: linear 0.3s fadeIn;
+      animation-timeline: --revealing;
+      animation-range: entry 100% cover 10%;
     }
 
     kbd {

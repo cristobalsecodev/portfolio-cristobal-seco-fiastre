@@ -2,23 +2,20 @@
 import { basics } from 'cv-es.json'
 import Section from '@/components/cv/Section.astro'
 import Mail from '@/icons/Mail.astro'
-import Phone from '@/icons/Phone.astro'
-import X from '@/icons/X.astro'
 import LinkedIn from '@/icons/LinkedIn.astro'
 import GitHub from '@/icons/GitHub.astro'
 import WorldMap from '@/icons/WorldMap.astro'
 
-const {name, label, image, location, profiles, phone, email} = basics
+const {name, label, image, location, profiles, email} = basics
 const {city, country } = location
 
 const SOCIAL_ICONS: Record<string, any> = {
     GitHub,
-    LinkedIn,
-    X
+    LinkedIn
 }
 
 const linkedUrl = profiles.find(({ network }) => network === "LinkedIn")?.url
-const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
+const printInfo = [email, linkedUrl].filter(Boolean).join(" • ")
 ---
 
 <Section>
@@ -49,19 +46,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
           )
         }
         {
-          phone && (
-            <a
-              href={`tel:${phone}`}
-              title={`Llamar por teléfono a ${name} al número ${phone}`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Phone />
-            </a>
-          )
-        }
-        {
-          profiles.map(({ network, url, username }) => {
+          profiles.map(({ network, url }) => {
             const Icon = SOCIAL_ICONS[network]
 
             return (

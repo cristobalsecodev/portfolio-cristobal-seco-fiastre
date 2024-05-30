@@ -4,9 +4,7 @@
       "label": "Desarrollador Fullstack",
       "image": "https://avatars.githubusercontent.com/cristobalsecodev",
       "email": "cristobalsecofiastre@gmail.com",
-      "phone": "(+34) 603 86 84 85",
-      "url": "https://johndoe.com",
-      "summary": "Más de 5 años en el sector del desarrollo web. Tengo preferencia por los retos tecnológicos y la resolución de problemas. Siempre centrado en las buenas prácticas, la calidad del código y una organización clave para lograr la optimización de las aplicaciones.",
+      "summary": "Más de 5 años en el sector del desarrollo web. Tengo preferencia por los retos tecnológicos y la resolución de problemas. Siempre centrado en las buenas prácticas, la calidad del código y una organización clave para lograr la optimización de las aplicaciones. Más especializado y orientado al Frontend.",
       "location": {
         "city": "Callosa de Segura",
         "country": "España"
@@ -14,12 +12,10 @@
       "profiles": [
         {
           "network": "LinkedIn",
-          "username": "Cristóbal Seco",
           "url": "https://linkedin.com/in/cristobal-seco-fiastre"
         },
         {
           "network": "GitHub",
-          "username": "Cristóbal Seco",
           "url": "https://github.com/cristobalsecodev"
         }
       ]
@@ -33,35 +29,15 @@
         "workFlow": [
           {
             "position": "Desarrollador Fullstack",
-            "summary": "Description…",
-            "startDate": "2022-07-01",
-            "endDate": null
-          },
-          {
-            "position": "Desarrollador Angular",
-            "summary": "Description…",
+            "summary": "Creación de una aplicación para los empleados de la red ferroviaria con el objetivo de incrementar la eficiencia del mantenimento y la comunicación entre los diferentes roles implicados.",
             "startDate": "2020-07-01",
-            "endDate": "2022-07-01"
+            "endDate": null
           },
           {
             "position": "Desarrollador Java",
-            "summary": "Description…",
+            "summary": "Orientado en la resolución de incidencias y mantenimiento de una aplicación del sector bancario con grandes volúmenes de datos y reporte de tareas frecuente al jefe de proyecto.",
             "startDate": "2019-03-01",
             "endDate": "2020-07-01"
-          }
-        ]
-      },
-      {
-        "name": "PAPA",
-        "url": "https://www.capgemini.com",
-        "startDate": "2019-06-01",
-        "endDate": null,
-        "workFlow": [
-          {
-            "position": "Desarrollador Fullstack",
-            "summary": "Description…",
-            "startDate": "2022-07-01",
-            "endDate": null
           }
         ]
       }
@@ -102,7 +78,7 @@
       "isActive": false,
       "description": "Description...",
       "highlights": [
-        "Won award at AIHacks 2016"
+        "Random"
       ],
       "url": "https://project.com/"
     }]

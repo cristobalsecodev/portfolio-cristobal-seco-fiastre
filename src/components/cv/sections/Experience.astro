@@ -44,7 +44,13 @@ import { calculateMonthYear } from "@/utils/date"
                               </time>
                             </header>
                             <footer>
-                              <p>{summary}</p>
+                              {
+                                summary.map((paragraph, index) => {
+                                  return (
+                                    <p class:list={{paragraphSpace: index !== 0}}>&bull; {paragraph}</p>
+                                  )
+                                })
+                              }
                             </footer>
                           </article>
                         </li>
@@ -95,4 +101,5 @@ import { calculateMonthYear } from "@/utils/date"
     color: #555;
     font-size: 0.85rem;
   }
+
 </style>

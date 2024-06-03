@@ -13,5 +13,8 @@
     "@astrojs/check": "^0.7.0",
     "astro": "^4.8.7",
     "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
   }
 }

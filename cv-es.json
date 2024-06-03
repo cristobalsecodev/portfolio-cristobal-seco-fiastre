@@ -29,57 +29,67 @@
         "workFlow": [
           {
             "position": "Desarrollador Fullstack",
-            "summary": "Creación de una aplicación para los empleados de la red ferroviaria con el objetivo de incrementar la eficiencia del mantenimento y la comunicación entre los diferentes roles implicados.",
+            "summary": [
+              "Creación de una aplicación para los empleados de la red ferroviaria con el objetivo de incrementar la eficiencia del mantenimento y la comunicación entre los diferentes roles implicados acorde a las incidencias en la vía.",
+              "Análisis y diseño de las soluciones a ser implementadas en el producto.",
+              "Frecuencia en la reunión con clientes para discutir nuevas funcionalidades.",
+              "Presentación del incremento de producto en las demos agile.",
+              "Soporte técnico al equipo."
+            ],
             "startDate": "2020-07-01",
             "endDate": null
           },
           {
             "position": "Desarrollador Java",
-            "summary": "Orientado en la resolución de incidencias y mantenimiento de una aplicación del sector bancario con grandes volúmenes de datos y reporte de tareas frecuente al jefe de proyecto.",
+            "summary": [
+              "Orientado en la resolución de incidencias y mantenimiento de una aplicación del sector bancario con grandes volúmenes de datos y reporte de tareas frecuente al jefe de proyecto."
+            ],
             "startDate": "2019-03-01",
             "endDate": "2020-07-01"
           }
         ]
       }
     ],
-    "education": [{
-      "institution": "IES El Palmeral",
-      "url": "https://portal.edu.gva.es/ieselpalmeral/",
-      "title": "Técnico superior en sistemas de telecomunicaciones e informáticos",
-      "summary": "No clue wigga",
-      "startDate": "2017-09-01",
-      "endDate": "2019-03-01"
-    }],
-    "certificates": [{
-      "name": "Certificate",
-      "date": "2021-11-07",
-      "issuer": "Company",
-      "url": "https://certificate.com"
-    }],
-    "skills": [{
+    "education": [
+      {
+        "institution": "IES El Palmeral",
+        "url": "https://portal.edu.gva.es/ieselpalmeral/",
+        "title": "Técnico superior en sistemas de telecomunicaciones e informáticos",
+        "summary": [
+          "Proyecto relacionado con la creación de un medidor de contaminación ligero, adaptado a calles estrechas con el objetivo de conseguir una medición más precisa y más realista de los gases nocivos presentes en lugares urbanos.",
+          "Gestión de proyectos e infraestructuras de telecomunicaciones.",
+          "Instalación de sistemas operativos y redes telemáticas.",
+          "Montaje y mantenimiento de equipos."
+        ],
+        "startDate": "2017-09-01",
+        "endDate": "2019-03-01"
+      }
+    ],
+    "skills": [
+      {
       "name": "Web Development",
-      "level": "Master",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ]
-    }],
-    "languages": [{
-      "language": "English",
-      "fluency": "Native speaker"
-    }],
-    "references": [{
-      "name": "Jane Doe",
-      "reference": "Reference…"
-    }],
-    "projects": [{
-      "name": "Project",
-      "isActive": false,
-      "description": "Description...",
-      "highlights": [
-        "Random"
-      ],
-      "url": "https://project.com/"
-    }]
+      "level": "Master"
+      }
+    ],
+    "languages": [
+      {
+        "language": "Español",
+        "fluency": "Nativo"
+      },
+      {
+        "language": "Inglés",
+        "fluency": "Avanzado"
+      }
+    ],
+    "projects": [
+      {
+        "name": "Project",
+        "isActive": false,
+        "description": "Description...",
+        "highlights": [
+          "Random"
+        ],
+        "url": "https://project.com/"
+      }
+    ]
   }

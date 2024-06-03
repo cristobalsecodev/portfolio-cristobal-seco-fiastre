@@ -33,7 +33,13 @@ import { calculateMonthYear } from "@/utils/date"
                     {institution}
                   </a>
                 </h4>
-                <p>{summary}</p>
+                {
+                  summary.map((paragraph, index) => {
+                    return (
+                      <p class:list={{paragraphSpace: index !== 0}}>&bull; {paragraph}</p>
+                    )
+                  })
+                }
               </footer>
             </article>
           </li>

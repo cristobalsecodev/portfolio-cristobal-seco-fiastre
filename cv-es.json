@@ -67,8 +67,40 @@
     ],
     "skills": [
       {
-      "name": "Web Development",
-      "level": "Master"
+        "name": "PostgreSQL",
+        "level": "Avanzado"
+      },
+      {
+        "name": "JSON",
+        "level": "Avanzado"
+      },
+      {
+        "name": "Spring Boot",
+        "level": "Intermedio"
+      },
+      {
+        "name": "Scrum",
+        "level": "Intermedio"
+      },
+      {
+        "name": "GitLab",
+        "level": "Avanzado"
+      },
+      {
+        "name": "GitHub",
+        "level": "Avanzado"
+      },
+      {
+        "name": "Angular",
+        "level": "Muy avanzado"
+      },
+      {
+        "name": "TypeScript",
+        "level": "Muy avanzado"
+      },
+      {
+        "name": "Java",
+        "level": "Intermedio"
       }
     ],
     "languages": [

@@ -1,116 +1,127 @@
 {
   "basics": {
-    "name": "John Doe",
-    "label": "Programmer",
+    "name": "Cristóbal Seco Fiastre",
+    "label": "Fullstack Developer",
     "image": "https://avatars.githubusercontent.com/cristobalsecodev",
-    "email": "john@gmail.com",
-    "phone": "(912) 555-4321",
-    "url": "https://johndoe.com",
-    "summary": "A summary of John Doe…",
+    "email": "cristobalsecofiastre@gmail.com",
+    "summary": "More than 5 years in the web development sector. I have a preference for technological challenges and problem-solving. Always focused on best practices, code quality, and key organization to achieve application optimization. More specialized and oriented towards Frontend.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "country": "California"
+      "city": "Callosa de Segura",
+      "country": "Spain"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "Cristóbal Seco",
         "url": "https://linkedin.com/in/cristobal-seco-fiastre"
       },
       {
         "network": "GitHub",
-        "username": "Cristóbal Seco",
         "url": "https://github.com/cristobalsecodev"
       }
     ]
   },
-  "work": [{
-    "name": "Company",
-    "position": "President",
-    "url": "https://company.com",
-    "startDate": "2013-01-01",
-    "endDate": "2014-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Started the company"
-    ]
-  }],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "url": "https://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
-  "education": [{
-    "institution": "University",
-    "url": "https://institution.com/",
-    "area": "Software Development",
-    "studyType": "Bachelor",
-    "startDate": "2011-01-01",
-    "endDate": "2013-01-01",
-    "score": "4.0",
-    "courses": [
-      "DB1101 - Basic SQL"
-    ]
-  }],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
-  }],
-  "certificates": [{
-    "name": "Certificate",
-    "date": "2021-11-07",
-    "issuer": "Company",
-    "url": "https://certificate.com"
-  }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "url": "https://publication.com",
-    "summary": "Description…"
-  }],
-  "skills": [{
-    "name": "Web Development",
-    "level": "Master",
-    "keywords": [
-      "HTML",
-      "CSS",
-      "JavaScript"
-    ]
-  }],
-  "languages": [{
-    "language": "English",
-    "fluency": "Native speaker"
-  }],
-  "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "Ferrets",
-      "Unicorns"
-    ]
-  }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference…"
-  }],
-  "projects": [{
-    "name": "Project",
-    "isActive": true,
-    "description": "Description...",
-    "highlights": [
-      "Won award at AIHacks 2016"
-    ],
-    "url": "https://project.com/"
-  }]
+  "work": [
+    {
+      "name": "Capgemini",
+      "url": "https://www.capgemini.com",
+      "startDate": "2019-03-01",
+      "endDate": null,
+      "workFlow": [
+        {
+          "position": "Fullstack Developer",
+          "summary": [
+            "Creation of an application for railway network employees with the aim of increasing maintenance efficiency and communication between different roles involved in track incidents.",
+            "Analysis and design of solutions to be implemented in the product.",
+            "Frequent meetings with clients to discuss new functionalities.",
+            "Presentation of product increments in agile demos.",
+            "Technical support to the team."
+          ],
+          "startDate": "2020-07-01",
+          "endDate": null
+        },
+        {
+          "position": "Java Developer",
+          "summary": [
+            "Focused on incident resolution and maintenance of a banking sector application with large volumes of data and frequent task reporting to the project manager."
+          ],
+          "startDate": "2019-03-01",
+          "endDate": "2020-07-01"
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "IES El Palmeral",
+      "url": "https://portal.edu.gva.es/ieselpalmeral/",
+      "title": "Senior Technician in Telecommunications and Computer Systems",
+      "summary": [
+        "Project related to the creation of a lightweight pollution meter, adapted to narrow streets to achieve more accurate and realistic measurement of harmful gases present in urban areas.",
+        "Management of telecommunications projects and infrastructures.",
+        "Installation of operating systems and telematic networks.",
+        "Assembly and maintenance of equipment."
+      ],
+      "startDate": "2017-09-01",
+      "endDate": "2019-03-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "PostgreSQL",
+      "level": "Advanced"
+    },
+    {
+      "name": "JSON",
+      "level": "Advanced"
+    },
+    {
+      "name": "Spring Boot",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Scrum",
+      "level": "Intermediate"
+    },
+    {
+      "name": "GitLab",
+      "level": "Advanced"
+    },
+    {
+      "name": "GitHub",
+      "level": "Advanced"
+    },
+    {
+      "name": "Angular",
+      "level": "Very Advanced"
+    },
+    {
+      "name": "TypeScript",
+      "level": "Very Advanced"
+    },
+    {
+      "name": "Java",
+      "level": "Intermediate"
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Project",
+      "isActive": false,
+      "description": "Description...",
+      "highlights": [
+        "Random"
+      ],
+      "url": "https://project.com/"
+    }
+  ]
 }

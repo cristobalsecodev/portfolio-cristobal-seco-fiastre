@@ -115,13 +115,15 @@
     ],
     "projects": [
       {
-        "name": "Project",
-        "isActive": false,
-        "description": "Description...",
+        "name": "Gestión de finanzas",
+        "isActive": true,
+        "description": "Añadir ingresos y gastos con gráficos de estadísticas y cambios de divisas",
         "highlights": [
-          "Random"
+          "API de divisas",
+          "Seguridad JWT",
+          "Gestión de usuarios"
         ],
-        "url": "https://project.com/"
+        "url": "https://gestion-finanzas-front.vercel.app"
       }
     ]
   }

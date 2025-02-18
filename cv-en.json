@@ -115,13 +115,15 @@
   ],
   "projects": [
     {
-      "name": "Project",
-      "isActive": false,
-      "description": "Description...",
+      "name": "Finance Management",
+      "isActive": true,
+      "description": "Add income and expenses with statistics charts and currency exchange",
       "highlights": [
-        "Random"
+        "Currency API",
+        "JWT Security",
+        "User Management"
       ],
-      "url": "https://project.com/"
+      "url": "https://gestion-finanzas-front.vercel.app"
     }
   ]
 }

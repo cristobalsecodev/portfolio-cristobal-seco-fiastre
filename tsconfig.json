@@ -1,17 +1,17 @@
 {
   "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
     "baseUrl": ".",
     "paths": {
-      "@cv-es": [
-        "./cv-es.json"
-      ],
       "@cv-en": [
         "./cv-en.json"
       ],
       "@/*": [
         "src/*"
       ]
-    }
+    },
+    "types": ["astro/client"]
   }
 }

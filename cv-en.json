@@ -76,7 +76,7 @@
     },
     {
       "name": "Spring Boot",
-      "level": "Intermediate"
+      "level": "Advanced"
     },
     {
       "name": "Scrum",
@@ -99,8 +99,16 @@
       "level": "Very Advanced"
     },
     {
+      "name": "React",
+      "level": "Basic"
+    },
+    {
+      "name": "Astro",
+      "level": "Basic"
+    },
+    {
       "name": "Java",
-      "level": "Intermediate"
+      "level": "Advanced"
     }
   ],
   "languages": [
@@ -119,9 +127,11 @@
       "isActive": true,
       "description": "Add income and expenses with statistics charts and currency exchange",
       "highlights": [
-        "Currency API",
+        "Currency exchange API",
         "JWT Security",
-        "User Management"
+        "User management",
+        "Income and expenses management",
+        "Percentages and charts"
       ],
       "url": "https://gestion-finanzas-front.vercel.app"
     }

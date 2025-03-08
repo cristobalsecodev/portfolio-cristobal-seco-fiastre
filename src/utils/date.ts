@@ -10,5 +10,5 @@ export const calculateMonthYear = (date: string | null) => {
 
     return `${month}/${year}`
   }
-  return "Presente";
+  return "Present";
 }

@@ -8,16 +8,15 @@ import Education from '@/components/cv/sections/Education.astro';
 import Projects from '@/components/cv/sections/Projects.astro';
 import Skills from '@/components/cv/sections/Skills.astro';
 import Footer from '@/components/cv/Footer.astro';
-import ThemeIcon from '@/components/ThemeIcon.astro';
 
-import { basics } from "@cv-es"
+import { basics } from "@cv-en"
 import Languages from '@/components/cv/sections/Languages.astro';
 
 const { name, label } = basics
 ---
 
 <!-- <ThemeIcon /> -->
-<Layout title={`Portfolio de ${name} - ${label}`}>
+<Layout title={`${name} - ${label} portfolio`}>
 	<main>
 		<Hero />
 		<About />

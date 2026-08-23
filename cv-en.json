@@ -124,7 +124,7 @@
   "projects": [
     {
       "name": "Finance Management",
-      "isActive": true,
+      "isActive": false,
       "description": "Add income and expenses with statistics charts and currency exchange",
       "highlights": [
         "Currency exchange API",
@@ -134,6 +134,18 @@
         "Percentages and charts"
       ],
       "url": "https://gestion-finanzas-front.vercel.app"
+    },
+    {
+      "name": "Hiuka magazine",
+      "isActive": true,
+      "description": "A gastronomic guide about sharing the culture and food from Korea to the world",
+      "highlights": [
+        "Strapi",
+        "Astro",
+        "User management",
+        "SEO"
+      ],
+      "url": "https://hiukamagazine.com"
     }
   ]
 }

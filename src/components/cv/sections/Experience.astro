@@ -75,31 +75,33 @@ import { calculateMonthYear } from "@/utils/date"
   }
 
   .separator-header {
-    border-bottom: 1px solid #c0bebe;
+    border-bottom: 1px solid var(--border-strong);
     padding-bottom: 6px;
   }
 
   article h3 a {
     font-weight: 500;
-    color: #111;
+    color: var(--text);
   }
 
   article header h4 {
-    color: #222;
+    color: var(--text-secondary);
     font-weight: 400;
   }
 
   header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
+    gap: 16px;
     margin-bottom: 8px;
-    
   }
 
   time {
-    color: #555;
+    color: var(--text-subtle);
     font-size: 0.85rem;
+    white-space: nowrap;
+    flex-shrink: 0;
   }
 
 </style>

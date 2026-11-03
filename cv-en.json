@@ -1,18 +1,18 @@
 {
   "basics": {
     "name": "Cristóbal Seco Fiastre",
-    "label": "Fullstack Developer",
+    "label": "Tech Lead & Full-Stack Developer",
     "image": "https://avatars.githubusercontent.com/cristobalsecodev",
     "email": "cristobalsecofiastre@gmail.com",
-    "summary": "More than 5 years in the web development sector. I have a preference for technological challenges and problem-solving. Always focused on best practices, code quality, and key organization to achieve application optimization. More specialized and oriented towards Frontend.",
+    "summary": "Tech Lead and Senior Full-Stack Developer with over 5 years in web development. I work closely with clients and teams to ensure projects are delivered with high quality, clean code and solid organization. Skilled in Angular, Java, Spring Boot and CI/CD tools, I focus on building applications that are optimized, maintainable and ready for the future. Currently exploring AI tools and MCPs to enhance development processes and improve system capabilities.",
     "location": {
-      "city": "Callosa de Segura",
+      "city": "Madrid",
       "country": "Spain"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "url": "https://linkedin.com/in/cristobal-seco-fiastre"
+        "url": "https://www.linkedin.com/in/cristobal-seco-fiastre/"
       },
       {
         "network": "GitHub",
@@ -28,24 +28,55 @@
       "endDate": null,
       "workFlow": [
         {
-          "position": "Fullstack Developer",
+          "position": "Senior Software Developer / Tech Lead",
+          "startDate": "2025-01-01",
+          "endDate": null,
           "summary": [
-            "Creation of an application for railway network employees with the aim of increasing maintenance efficiency and communication between different roles involved in track incidents.",
-            "Analysis and design of solutions to be implemented in the product.",
-            "Frequent meetings with clients to discuss new functionalities.",
-            "Presentation of product increments in agile demos.",
-            "Technical support to the team."
-          ],
-          "startDate": "2020-07-01",
-          "endDate": null
+            "Lead the technical side of the project, making sure new features are possible and high quality.",
+            "Talk with the client and Product Owner to suggest improvements and confirm technical details.",
+            "Help and guide junior and mid-level developers, checking their code and giving feedback.",
+            "Work on frontend, backend and databases using Angular 20, Angular Material, Java 21 and Spring Boot.",
+            "Design clear and user-friendly interfaces.",
+            "Estimate tasks and check how each change will affect the app.",
+            "Improve and clean up code following Clean Code and SOLID principles.",
+            "Test and explore AI tools and MCPs for future use.",
+            "Handle deployments and CI/CD with GitLab, Jenkins and OpenShift.",
+            "Fix urgent problems in production to keep systems stable and running."
+          ]
         },
         {
-          "position": "Java Developer",
+          "position": "Fullstack Developer",
+          "startDate": "2020-07-01",
+          "endDate": "2025-01-01",
           "summary": [
-            "Focused on incident resolution and maintenance of a banking sector application with large volumes of data and frequent task reporting to the project manager."
-          ],
+            "Working with Angular 20, Angular Material, Spring Boot, Java 21 and PostgreSQL.",
+            "Focused on good practices and quality code.",
+            "Analysis and design of solutions to be implemented in the product.",
+            "Frequent customer meetings to discuss new functionalities.",
+            "Technical assessment of future product developments.",
+            "Presentation of product enhancements in agile demos.",
+            "Technical support to the team.",
+            "Deployments in Jenkins and integration with Sonar."
+          ]
+        },
+        {
+          "position": "PL1 / Java Developer",
+          "startDate": "2019-06-01",
+          "endDate": "2020-07-01",
+          "summary": [
+            "Maintenance of a banking sector application.",
+            "Improvement of JCL programs and chains.",
+            "Resolution of incidents.",
+            "Frequent reporting to the project leader."
+          ]
+        },
+        {
+          "position": "Internship",
           "startDate": "2019-03-01",
-          "endDate": "2020-07-01"
+          "endDate": "2019-05-01",
+          "summary": [
+            "Maintenance of an application in the banking sector using Java technology."
+          ]
         }
       ]
     }
@@ -54,15 +85,14 @@
     {
       "institution": "IES El Palmeral",
       "url": "https://portal.edu.gva.es/ieselpalmeral/",
-      "title": "Senior Technician in Telecommunications and Computer Systems",
+      "title": "Higher Technician in Telecommunications and Computer Installations",
       "summary": [
-        "Project related to the creation of a lightweight pollution meter, adapted to narrow streets to achieve more accurate and realistic measurement of harmful gases present in urban areas.",
+        "Creation of a pollution meter with Arduino.",
         "Management of telecommunications projects and infrastructures.",
-        "Installation of operating systems and telematic networks.",
-        "Assembly and maintenance of equipment."
+        "Installation of operating systems and telematic networks."
       ],
       "startDate": "2017-09-01",
-      "endDate": "2019-03-01"
+      "endDate": "2019-06-01"
     }
   ],
   "skills": [
@@ -109,6 +139,27 @@
     {
       "name": "Java",
       "level": "Advanced"
+    },
+    {
+      "name": "Angular Material"
+    },
+    {
+      "name": "Angular CLI"
+    },
+    {
+      "name": "Jenkins"
+    },
+    {
+      "name": "OpenShift"
+    },
+    {
+      "name": "Oracle Database"
+    },
+    {
+      "name": "Jira"
+    },
+    {
+      "name": "Agile methodologies"
     }
   ],
   "languages": [
@@ -137,9 +188,9 @@
       "url": "https://vexigma.es"
     },
     {
-      "name": "Finance Management",
+      "name": "Financia Sphere",
       "isActive": false,
-      "description": "Add income and expenses with statistics charts and currency exchange",
+      "description": "A financial management app to track income and expenses by category, with interactive percentage charts and currency conversion",
       "highlights": [
         "Currency exchange API",
         "JWT Security",

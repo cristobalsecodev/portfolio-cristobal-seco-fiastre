@@ -123,6 +123,20 @@
   ],
   "projects": [
     {
+      "name": "Vexigma",
+      "isActive": true,
+      "description": "A historical flags game: pick a year and guess which kingdoms, empires and republics flew their flags back then, with a daily challenge and real-time multiplayer",
+      "highlights": [
+        "Angular",
+        "NestJS",
+        "PostgreSQL",
+        "WebSockets",
+        "Multiplayer",
+        "Self-hosted deployment"
+      ],
+      "url": "https://vexigma.es"
+    },
+    {
       "name": "Finance Management",
       "isActive": false,
       "description": "Add income and expenses with statistics charts and currency exchange",

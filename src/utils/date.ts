@@ -1,14 +1,9 @@
 // Mediante una fecha YYYY-MM-DD Devolvemos el valor MM/YYYY
 export const calculateMonthYear = (date: string | null) => {
   if(date) {
-    const formattedDate = new Date(date)
-    
-    const year = formattedDate.getFullYear()
-    const month = formattedDate.getMonth().toString().length === 1 
-      ? `0${formattedDate.getMonth() + 1}` 
-      : formattedDate.getMonth() + 1
+    const [year, month] = date.split("-")
 
-    return `${month}/${year}`
+    return `${month.padStart(2, "0")}/${year}`
   }
   return "Present";
 }

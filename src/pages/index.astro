@@ -11,12 +11,13 @@ import Footer from '@/components/cv/Footer.astro';
 
 import { basics } from "@cv-en"
 import Languages from '@/components/cv/sections/Languages.astro';
+import ThemeSwitcher from '@/components/ThemeSwitcher.astro';
 
 const { name, label } = basics
 ---
 
-<!-- <ThemeIcon /> -->
 <Layout title={`${name} - ${label} portfolio`}>
+	<ThemeSwitcher />
 	<main>
 		<Hero />
 		<About />

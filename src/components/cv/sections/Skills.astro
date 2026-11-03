@@ -11,8 +11,8 @@ import { skills } from "@cv-en"
       skills.map(({ name, level }, index) => {
         return (  
           <li>
-            <span>{name} -</span>
-            <span>{level}</span>
+            <span>{name}{level && " -"}</span>
+            {level && <span>{level}</span>}
           </li>
           <div class="print">
             {
@@ -36,8 +36,8 @@ import { skills } from "@cv-en"
 
   li {
     border-radius: 6px;
-    background: #eee;
-    color: #111;
+    background: var(--surface);
+    color: var(--surface-text);
     font-size: 0.8rem;
     font-weight: 500;
     padding: 0.2rem 0.6rem;

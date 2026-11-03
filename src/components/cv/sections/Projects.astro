@@ -18,10 +18,7 @@ import { projects } from "@cv-en"
                     target="_blank"
                     rel="noopener noreferrer" 
                     href={url}
-                  >
-                    {name}
-                  </a>
-                  <span class:list={{isActive: isActive, isNotActive: !isActive}}>&bull;</span>
+                  >{name}</a>{/* Non-breaking space keeps the status dot on the same line as the last word */}&nbsp;<span class:list={{isActive: isActive, isNotActive: !isActive}}>&bull;</span>
                 </h3>
                 <p>{description}</p>
               </header>
@@ -52,7 +49,7 @@ import { projects } from "@cv-en"
 
   article {
     border-radius: 6px;
-    border: 1px solid #f2f2f2;
+    border: 1px solid var(--border);
     gap: 16px;
     display: flex;
     flex-direction: column;
@@ -69,7 +66,7 @@ import { projects } from "@cv-en"
   }
 
   article a {
-    color: #111;
+    color: var(--text);
   }
 
   article a:hover {
@@ -83,11 +80,11 @@ import { projects } from "@cv-en"
   }
 
   .isActive {
-    color: #00bb00;
+    color: var(--active);
   }
 
   .isNotActive {
-    color: #d60202;
+    color: var(--inactive);
   }
 
   footer {
@@ -99,8 +96,8 @@ import { projects } from "@cv-en"
 
   footer span {
     border-radius: 6px;
-    background: #eee;
-    color: #111;
+    background: var(--surface);
+    color: var(--surface-text);
     font-size: 0.6rem;
     font-weight: 500;
     padding: 0.2rem 0.6rem;
